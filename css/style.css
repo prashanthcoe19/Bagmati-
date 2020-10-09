@@ -2030,7 +2030,7 @@ blockquote p > cite {
 
 }
 
-            .section2 .slider .over .catbox .catbox-holder .catbox-name h5 {
+.section2 .slider .over .catbox .catbox-holder .catbox-name h5 {
                 padding: 13px;
                 top: -80px;
                 color: #fff;
@@ -2045,7 +2045,10 @@ blockquote p > cite {
                 left: 0px;
                 font-weight: 400;
                 transition: all 0.3s ease-in-out 0s;
-            }
+}
+    .section2 .slider .over .catbox .catbox-holder .catbox-name h5:hover {
+      text-decoration:none;
+    }
 
         .section2 .slider .over .catbox .background-overlay {
             background: rgba(0,0,0,0.1);
